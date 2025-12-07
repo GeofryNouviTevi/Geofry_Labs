@@ -1,3 +1,7 @@
+# Ce code est basé sur les arbres de recherche (comme un Graphe ) 
+# Le but est de créé un arbe généalogiue d'une Famille. Chaque personne de la famille doit avoir un : 
+# Nom , prénom , date de naissance ,  
+
 import json
 import os
 
@@ -202,4 +206,5 @@ def menu():
         else:
             print("Choix invalide.")
 if __name__ == "__main__":
+
     menu()
