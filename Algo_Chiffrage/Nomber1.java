@@ -65,7 +65,7 @@ public class Nomber1 {
         PrivateKey Cleprive = loadPrivateKey("C:\\Program Files\\OpenSSL-Win64\\bin\\private_Key.pem") ; // Appel de la cle privée chargé avec la methode " loadPublicKey " 
         
         //Données à chiffrer 
-        String message = "Je vais niquer ta Mère ! Fcuk " ;
+        String message = " La sécurite numérique n'est jamais parfaite. " ;
         
        // System.out.println("Message Original :"+message);
         
@@ -81,3 +81,4 @@ public class Nomber1 {
 
    
 }
+
