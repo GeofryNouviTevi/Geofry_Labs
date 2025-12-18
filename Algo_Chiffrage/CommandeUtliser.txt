@@ -1,0 +1,8 @@
+Commande utiliser pour generer un clé public a cet emplacement :  
+	openssl genpkey -algorithm RSA -out "C:\Users\User\Documents\NetBeansProjects\Test1\src\Algo_Chiffrage\privateKey.pem" 
+			-pkeyopt rsa_keygen_bits:2048
+
+*Commande utiliser pour extraire la clé public de la cé privée à cet emplacement :
+
+	openssl rsa -in "C:\Users\User\Documents\NetBeansProjects\Test1\src\Algo_Chiffrage\privateKey.pem"  
+	-out "C:\Users\User\Documents\NetBeansProjects\Test1\src\Algo_Chiffrage\publicKey.pem"
